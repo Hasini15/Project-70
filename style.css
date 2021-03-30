@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+}
+
+.collapse navbar-collapse{
+    float: inline;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav navbar-nav {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+
+li {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+li:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.principle{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img{
+    width: 600px;
+    height: 300px;
+}
+
+.travel_mainDiv hr{
+    width: 100%;
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    width: 33.33% px;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img{
+    width: 600px;
+    height: 300px;
+}
+
+.travel_mainDiv hr{
+    width: 100%;
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+
+#achievementsID{
+    padding-bottom: 10px;
+}
+
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i{
+    float: right;
+}
+
+.movie_text span{
+    color: #ff7700;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.text-success text-left text-capitalize{
+    text-align: center;
+}
+
+.Chick-fal-a{
+    width: 300px;
+    height: 300px;
+}
+
+.list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12{
+     font-style: normal;
+    font-size: 13px;
+}
+
+.list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12{
+    font-style: normal;
+    font-size: 13px;
+}
